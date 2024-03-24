@@ -1,14 +1,16 @@
-**System Pre-requiste : **
+**System Pre-requiste :** 
 1) Raspberrypi 4 B+
 2) Picamera v1.3
 3) Ethernet Cable
 
-**How to Setup Headless Raspberrypi : **
+**How to Setup Headless Raspberrypi :**
+
 click down the link below and follow the procedure 
 <link>
 
-**How to setup the Environment in Raspberrypi ??? **
-**Step 1 : **
+**How to setup the Environment in Raspberrypi ???**
+
+**Step 1 :**
 Download and install the below libraries: 
 1) sudo apt-get update
 2) sudo apt-get upgrade
@@ -19,7 +21,7 @@ Download and install the below libraries:
 7) sudo apt install -y python3-libcamera python3-kms++ libcap-dev
 8) sudo apt install -y python3-libcamera
 
-**Step 2 : **
+**Step 2 :**
 Since We are going to work with virtual environment, follow the below steps: 
 1) Create the virtual Environment
    virtualenv ~/Drowsyness_Detection --system-site-packages
@@ -36,13 +38,22 @@ Since We are going to work with virtual environment, follow the below steps:
     4.7) pip3 install dlib
     4.8) pip3 install imutils
 
-**Step 3 : **
+**Step 3 :**
 1) make sure you activated the virtual environment
 2) create directory for your project.
      mkdir -p ~/Drowsyness_Detection/Drowsy
 3) cd ~/Drowsyness_Detection/Drowsy
 4) Clone the above repo using the command "git clone https://github.com/sankaran-projects/drowsiness-detection.git"
 
-**Finally execute the python file **
+**Finally execute the python file**
+
 python drowsyness_detection.py
+
+**For Your Reference :**
+
+I use bookworm version of rasbian OS 
+
+
+![image](https://github.com/sankaran-projects/drowsiness-detection/assets/146840023/30260fb8-831c-4d99-8b98-2fe1c2350f76)
+
  
