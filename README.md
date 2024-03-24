@@ -13,8 +13,8 @@ This is achieved by integrating with cameras and sensors, and our system continu
 
 **How to Setup Headless Raspberrypi :**
 
-click down the link below and follow the procedure 
-<link>
+click the 
+[LINK](https://medium.com/@shankar21be/how-to-setup-headless-raspberrypi-09f719fecd96) to setup the initial headless raspberrypi.
 
 **How to setup the Environment in Raspberrypi ???**
 
