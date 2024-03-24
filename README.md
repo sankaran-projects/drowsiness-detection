@@ -1,7 +1,10 @@
+---------------------------------------------------
 **Drowsiness Detection**
 
 This is the project, which is a computer vision system that can detect driver sleepiness in a real-time video stream and provide a warning if the driver appears to be weary.
 This is achieved by integrating with cameras and sensors, and our system continually observes driver activity, including eye movements and facial expressions in real time. 
+
+---------------------------------------------------
 
 **System Pre-requiste :** 
 1) Raspberrypi 4 B+
@@ -54,6 +57,7 @@ Since We are going to work with virtual environment, follow the below steps:
 
 python drowsyness_detection.py
 
+---------------------------------------------------
 **For Your Reference :**
 
 I use bookworm version of rasbian OS 
