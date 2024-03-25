@@ -42,10 +42,8 @@ def blinked(a,b,c,d,e,f):
         return 0
 
 while True:
-    #print("inside while")
     frame= picam2.capture_array()
-    
-   # print("inside while")
+
     count += 1
     if count % 3 != 0:
         continue
@@ -53,7 +51,6 @@ while True:
  
 	
     faces = detector(frame)
-    #print("after detector")
     #detected face in faces array 
     for face in faces:
         x1 = face.left()
