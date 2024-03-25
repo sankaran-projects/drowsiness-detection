@@ -97,7 +97,6 @@ while True:
         cv2.putText(frame,status,(100,100),cv2.FONT_HERSHEY_SIMPLEX,1.2,color,3)
 	
         for n in range(0,68):
-            print("inside for")
             (x,y) = landmarks[n]
             cv2.circle(face_frame,(x,y),1,(255,255,255),-1)
         cv2.imshow("Frame",frame)
